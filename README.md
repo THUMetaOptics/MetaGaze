@@ -1,8 +1,4 @@
-Markdown# MetaGaze: 360° Structured Light with Learned Metasurfaces
-
-<p align="center">
-  <b>Nature Photonics (2024)</b>
-</p>
+Markdown# MetaGaze: A metasurface-accelerated neural network for gaze estimation in AR/VR
 
 <p align="center">
   <a href="#-about"><b>About</b></a> &bull;
@@ -33,7 +29,9 @@ This repository provides an end-to-end framework for optoelectronic hybrid gaze 
 ├── new_workflow_github.ipynb     # Jupyter Notebook: End-to-end segmentation workflow & model training
 ├── centroid_polynomial_github.ipynb # Jupyter Notebook: Sub-pixel centroid extraction & polynomial regression for gaze mapping
 └── coord_predictor_training.ipynb   # Jupyter Notebook: Neural-network-based gaze coordinate prediction
-⚙️ Requirements & InstallationThis code has been developed and tested on Linux with NVIDIA GPUs. We recommend using a Conda virtual environment.Bash
+
+⚙️ Requirements & Installation
+This code has been developed and tested on Linux with NVIDIA GPUs. We recommend using a Conda virtual environment.Bash
 # 1. Clone the repository
 git clone [https://github.com/THUMetaOptics/MetaGaze](https://github.com/THUMetaOptics/MetaGaze)
 cd MetaGaze
