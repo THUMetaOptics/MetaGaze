@@ -29,6 +29,7 @@ This repository provides an end-to-end framework for optoelectronic hybrid gaze 
 ├── new_workflow_github.ipynb     # Jupyter Notebook: End-to-end segmentation workflow & model training
 ├── centroid_polynomial_github.ipynb # Jupyter Notebook: Sub-pixel centroid extraction & polynomial regression for gaze mapping
 └── coord_predictor_training.ipynb   # Jupyter Notebook: Neural-network-based gaze coordinate prediction
+```
 
 ## ⚙️ Requirements & Installation
 This code has been developed and tested on Linux with NVIDIA GPUs. We recommend using a Conda virtual environment.Bash
