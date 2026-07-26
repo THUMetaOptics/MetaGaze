@@ -41,7 +41,7 @@ cd MetaGaze
 pip install -r requirements.txt
 
 ## 📦 Datasets
-To ensure complete transparency and reproducibility, our curated datasets are organized as follows:Pseudo-Eye Dataset (dataset/): Contains 961 metasurface-reconstructed images with corresponding segmentation masks.Human-Eye Dataset (humaneye_dataset/): Contains 1,421 in vivo human-eye images with corresponding segmentation masks.Both complete datasets, along with their persistent DOIs, are also hosted externally for public access.
+To ensure complete transparency and reproducibility, our curated datasets are publicly hosted on Zenodo at https://zenodo.org/records/21466291. Due to the large data volume, the datasets have been divided into multiple compressed files. The Pseudo-Eye Dataset consists of 961 metasurface-reconstructed images distributed across data_part_1 through data_part_5, with corresponding segmentation masks in labels, the test set data and labels in test, and the original extracted data used for labeling in data_original. The Human-Eye Dataset contains 1,141 in vivo human-eye images split from data_humen_part_1 to data_humen_part_8, with their corresponding masks in label_humen, and the original extracted human-eye data in data_original_humen.
 
 ## 🚀 Pipeline & Usage
 1. Preprocessing & Alignment (MATLAB)Before running deep learning pipelines, use the provided MATLAB scripts to detect the specular reflection (glint) and extract the precise regions of interest (ROI):Run extract_glint_centroid.m to locate the corneal reflection acting as a rigid fiducial marker.Run batch_extract_roi.m to crop and prepare the input frames.
